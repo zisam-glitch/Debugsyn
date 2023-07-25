@@ -32,7 +32,7 @@ const Footer2 = () => {
                 <p>4590 MacArthur Blvd, Newport Beach, CA 92660, USA</p>
                 <a href="mailto:support@gmail.com">support@debugsyn.com</a>
                 <br />
-                <a href="callto:+8801908155030">+1 (323) 415 8482</a>
+                <a href="callto:+13234158482">+1 (323) 415 8482</a>
               </div>
             </div>
           </div>
