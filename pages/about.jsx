@@ -19,18 +19,18 @@ const About = () => {
           <div className="row">
             <div className="col-xl-10 col-lg-11">
               <h1 className="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
-                We’re Digital Web
+              We transform ideas into 
                 <img
                   className="mxw-20"
                   src="assets/images/banner/inside-title1.png"
                   alt="title"
                 />
-                <img
+                {/* <img
                   className="mxw-40"
                   src="assets/images/banner/inside-title2.png"
                   alt="title"
-                />
-                Development Agency
+                /> */}
+                Exceptional Product.
                 <span className="arrow">
                   <img
                     className="wow fadeInLeft delay-0-6s"

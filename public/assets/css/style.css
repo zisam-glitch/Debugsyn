@@ -1316,7 +1316,6 @@ h6, .h6 {
 .py-95 {
   padding-top: 95px; }
 
-.pt-100,
 .py-100 {
   padding-top: 100px; }
 
@@ -5215,6 +5214,7 @@ h6, .h6 {
     background: linear-gradient(180deg, rgba(9, 9, 9, 0.2) 0%, rgba(255, 255, 255, 0) 100%); }
   .service-four-item:hover {
     background: var(--ygency-primary-color); }
+    .service-four-item:hover .listtss ul li,
     .service-four-item:hover .content h5 a,
     .service-four-item:hover .content .icon-btn > i {
       color: var(--ygency-dark-color); }
@@ -7486,8 +7486,8 @@ blockquote {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+    padding-bottom: 12.5px;
+    margin-bottom: 12.5px;
     border-bottom: 2px solid var(--ygency-border-color);
     -webkit-transition: .3s;
     -o-transition: .3s;
@@ -9060,3 +9060,33 @@ blockquote {
     color: var(--ygency-primary-color); }
   .footer-five .footer-info .list-style-two li a:hover {
     font-size: 24px; }
+.listtss ul{
+  padding: 0 30px 20px 30px;
+  margin-top: -20px;
+}
+.listtss ul li{
+  text-decoration: underline;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 6px 0;
+}
+.listtss ul li:hover{
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 576px) {
+  .col-lg-69{
+    width: 100%;
+  } } 
+  @media only screen and (max-width: 375px) {
+    .col-lg-69{
+      width: 100%;
+    } } 
+    @media only screen and (min-width: 1200px) {
+      .col-lg-69{
+        width: 75%;
+      }

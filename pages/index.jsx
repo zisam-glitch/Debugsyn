@@ -14,7 +14,7 @@ const Index2 = () => {
       {/* Hero Section Start */}
       <section
         className="hero-area-two pt-220 rpt-150 pb-80 rpb-50 rel z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
+        style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.g)" }}
       >
         <div className="container">
           <h1 className="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
@@ -28,19 +28,21 @@ const Index2 = () => {
             </span>
             Code. Evolve.
           </h1>
-          <div className="row align-items-center justify-content-between">
-            <div className="col-xl-3 col-lg-4">
+          <div className="row align-items-start justify-content-between">
+            <div className="col-lg-6 col-lg-69">
               <div className="hero-two-content mb-50 wow fadeInRight delay-0-2s">
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium totam reme aperiam eaque
-                  abillo inventore
+                  Debugsyn is your expert strategy, design, product management,
+                  and development partner. We bring digital products from idea
+                  to success and teach you how because we care. It’s time to
+                  move beyond simply building features and start designing the
+                  right product with the right strategy.
                 </p>
-                <img
+                {/* <img
                   className="mt-20"
                   src="assets/images/hero/arrow.png"
                   alt="Arrow"
-                />
+                /> */}
                 <div className="authors-text mt-45">
                   <img src="assets/images/hero/author1.png" alt="Author" />
                   <img src="assets/images/hero/author2.png" alt="Author" />
@@ -51,11 +53,11 @@ const Index2 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="hero-two-image mb-50 wow zoomIn delay-0-2s">
                 <img src="assets/images/hero/hero-two.jpg" alt="Hero" />
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-2">
               <div className="hero-two-btn mb-50 wow fadeInLeft delay-0-2s">
                 <Link legacyBehavior href="/about">
@@ -71,7 +73,7 @@ const Index2 = () => {
       </section>
       {/* Hero Section End */}
       {/* Advertise Area Start */}
-      <section className="advertise-banner-area rel z-1">
+      {/* <section className="advertise-banner-area rel z-1">
         <div className="container container-1290">
           <div className="row">
             <div className="col-lg-7 wow fadeInUp delay-0-2s">
@@ -116,10 +118,10 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Advertise Area End */}
       {/* Skills Area Start */}
-      <section className="skills-area pt-100 rpt-70 rel z-1">
+      {/* <section className="skills-area pt-100 rpt-70 rel z-1">
         <div className="container container-1590">
           <div className="row justify-content-center">
             <div className="col-lg-6">
@@ -183,7 +185,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Skills Area End */}
       {/* About Us Area start */}
       <section className="about-area pt-100 rpt-70 rel z-1">
@@ -192,15 +194,16 @@ const Index2 = () => {
             <div className="col-lg-7">
               <div className="about-content">
                 <div className="section-title mb-40 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">About Company</span>
-                  <h2>We’re Award-winning Web Development Agency</h2>
+                  <span className="sub-title mb-15">About Debugsyn</span>
+                  <h2>
+                    We translate concepts into enlightening digital products.
+                  </h2>
                 </div>
                 <div className="text-left-border mt-60 mb-65 wow fadeInUp delay-0-2s">
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptat
-                    emey accusantium doloremque laudantium totam aperiam eaque
-                    quabillo inventore veritatisey quasi architecto beatae
-                    dictasunt
+                    Being on the market since 2017, we have managed to gain the
+                    trust and respect from our clients. Long-term relationships
+                    and happy customers have always been our main goals.
                   </p>
                 </div>
                 <div className="about-counter">
@@ -221,7 +224,7 @@ const Index2 = () => {
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="counter-item-two counter-text-wrap wow fadeInUp delay-0-4s">
-                        <Counter end={35} extraClass={"percent"} />
+                        <Counter end={85} extraClass={"percent"} />
                         <span className="counter-title">Project Complete</span>
                       </div>
                     </div>
@@ -252,7 +255,9 @@ const Index2 = () => {
             <div className="col-lg-7">
               <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
                 <span className="sub-title mb-15">Popular Services</span>
-                <h2>We Provide Amazing Web Design Solutions</h2>
+                <h2>
+                  We've got you covered with our vast experience and knowledge
+                </h2>
               </div>
             </div>
           </div>
@@ -270,115 +275,20 @@ const Index2 = () => {
                   </div>
                   <h5>
                     <Link legacyBehavior href="/service-details">
-                      <a>Web Development</a>
+                      <a>Product</a>
                     </Link>
                   </h5>
                 </div>
-                <div className="image">
-                  <img
-                    src="assets/images/services/service1.jpg"
-                    alt="Service"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="service-four-item wow fadeInDown delay-0-2s">
-                <div className="content">
-                  <div className="icon-btn">
-                    <i className="flaticon-mobile-development" />
-                    <Link legacyBehavior href="/service-details">
-                      <a className="more-btn">
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                  <h5>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Mobile Application</a>
-                    </Link>
-                  </h5>
-                </div>
-                <div className="image">
-                  <img
-                    src="assets/images/services/service2.jpg"
-                    alt="Service"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="service-four-item wow fadeInUp delay-0-2s">
-                <div className="content">
-                  <div className="icon-btn">
-                    <i className="flaticon-brainstorming" />
-                    <Link legacyBehavior href="/service-details">
-                      <a className="more-btn">
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                  <h5>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Team Agumentation</a>
-                    </Link>
-                  </h5>
-                </div>
-                <div className="image">
-                  <img
-                    src="assets/images/services/service3.jpg"
-                    alt="Service"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="service-four-item wow fadeInDown delay-0-2s">
-                <div className="content">
-                  <div className="icon-btn">
-                    <i className="flaticon-brainstorming" />
-                    <Link legacyBehavior href="/service-details">
-                      <a className="more-btn">
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                  <h5>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Design &amp; Branding</a>
-                    </Link>
-                  </h5>
-                </div>
-                <div className="image">
-                  <img
-                    src="assets/images/services/service4.jpg"
-                    alt="Service"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="service-four-item wow fadeInUp delay-0-2s">
-                <div className="content">
-                  <div className="icon-btn">
-                    <i className="flaticon-abstract" />
-                    <Link legacyBehavior href="/service-details">
-                      <a className="more-btn">
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                  <h5>
-                    <Link legacyBehavior href="/service-details">
-                      <a>React Js Development</a>
-                    </Link>
-                  </h5>
-                </div>
-                <div className="image">
-                  <img
-                    src="assets/images/services/service5.jpg"
-                    alt="Service"
-                  />
+                <div className="listtss">
+                  <ul>
+                    <li>Research & Strategic Insights</li>
+                    <li>Product Design Sprint</li>
+                    <li>Product Management</li>
+                    <li>Product Accessibility</li>
+                    <li>Discovery Sprint</li>
+                    <li>Usability Audit</li>
+                    <li>thoughtbot Incubator</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -395,15 +305,140 @@ const Index2 = () => {
                   </div>
                   <h5>
                     <Link legacyBehavior href="/service-details">
-                      <a>Front-end development</a>
+                      <a>Web</a>
                     </Link>
                   </h5>
                 </div>
-                <div className="image">
-                  <img
-                    src="assets/images/services/service6.jpg"
-                    alt="Service"
-                  />
+                <div className="listtss">
+                  <ul>
+                    <li>Ruby on Rails</li>
+                    <li>Platform Engineering</li>
+                    <li>Python and Django</li>
+                    <li>Elm</li>
+                    <li>React</li>
+                    <li>Rails Maintenance</li>
+                    <li>Internationalization and Localization</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-sm-6">
+              <div className="service-four-item wow fadeInUp delay-0-2s">
+                <div className="content">
+                  <div className="icon-btn">
+                    <i className="flaticon-mobile-development" />
+                    <Link legacyBehavior href="/service-details">
+                      <a className="more-btn">
+                        <i className="far fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                  <h5>
+                    <Link legacyBehavior href="/service-details">
+                      <a>App</a>
+                    </Link>
+                  </h5>
+                </div>
+                <div className="listtss">
+                  <ul>
+                    <li>Mobile Apps Development</li>
+                    <li>Android Development</li>
+                    <li>Hybrid Development</li>
+                    <li>iPhone App Development</li>
+                    <li>Wearable App Development</li>
+                    <li>Cloud App Development</li>
+                    <li>Phonegap App Development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-sm-6">
+              <div className="service-four-item wow fadeInDown delay-0-2s">
+                <div className="content">
+                  <div className="icon-btn">
+                    <i className="flaticon-brainstorming" />
+                    <Link legacyBehavior href="/service-details">
+                      <a className="more-btn">
+                        <i className="far fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                  <h5>
+                    <Link legacyBehavior href="/service-details">
+                      <a>Team & Processes</a>
+                    </Link>
+                  </h5>
+                </div>
+                <div className="listtss">
+                  <ul>
+                    <li>Fractional Product & Technical Leadership</li>
+                    <li>Team optimization & hiring</li>
+                    <li>Code Audits</li>
+                    <li>Platform Engineering</li>
+                    <li>Site Reliability Engineering</li>
+                    <li>Empowering remote teams</li>
+                    <li>Customized RSpec training</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-sm-6">
+              <div className="service-four-item wow fadeInUp delay-0-2s">
+                <div className="content">
+                  <div className="icon-btn">
+                    <i className="flaticon-goal" />
+                    <Link legacyBehavior href="/service-details">
+                      <a className="more-btn">
+                        <i className="far fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                  <h5>
+                    <Link legacyBehavior href="/service-details">
+                      <a>Industry</a>
+                    </Link>
+                  </h5>
+                </div>
+                <div className="listtss">
+                  <ul>
+                    <li>Health Technology</li>
+                    <li>Technical and Business Assistance (TABA)</li>
+                    <li>Fitness and Wellness</li>
+                    <li>Government / Public Sector</li>
+                    <li>E-commerce</li>
+                    <li>Fintech</li>
+                    <li>Education Technology</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-sm-6">
+              <div className="service-four-item wow fadeInDown delay-0-2s">
+                <div className="content">
+                  <div className="icon-btn">
+                    <i className="flaticon-brainstorming" />
+                    <Link legacyBehavior href="/service-details">
+                      <a className="more-btn">
+                        <i className="far fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                  <h5>
+                    <Link legacyBehavior href="/service-details">
+                      <a>Business Support</a>
+                    </Link>
+                  </h5>
+                </div>
+                <div className="listtss">
+                  <ul>
+                    <li>Enterprise Mobility</li>
+                    <li>Branding & Marketing</li>
+                    <li>Business Management</li>
+                    <li>24x7 HelpDesk Services</li>
+                    <li>Business Automation</li>
+                    <li>Testing Automation</li>
+                    <li>Hire Business Intelligence Analysts Services</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -420,15 +455,20 @@ const Index2 = () => {
                   </div>
                   <h5>
                     <Link legacyBehavior href="/service-details">
-                      <a>Jamstack Development</a>
+                      <a>Advisory</a>
                     </Link>
                   </h5>
                 </div>
-                <div className="image">
-                  <img
-                    src="assets/images/services/service7.jpg"
-                    alt="Service"
-                  />
+                <div className="listtss">
+                  <ul>
+                    <li>IT Staff Augmentation</li>
+                    <li>Business Technology Consulting</li>
+                    <li>Database Consulting</li>
+                    <li>Integration Consulting</li>
+                    <li>Product Strategy</li>
+                    <li>Technology Consultants</li>
+                    <li>Cyber Security</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -436,7 +476,7 @@ const Index2 = () => {
               <div className="service-four-item wow fadeInDown delay-0-2s">
                 <div className="content">
                   <div className="icon-btn">
-                    <i className="flaticon-goal" />
+                    <i className="flaticon-abstract" />
                     <Link legacyBehavior href="/service-details">
                       <a className="more-btn">
                         <i className="far fa-arrow-right" />
@@ -445,15 +485,20 @@ const Index2 = () => {
                   </div>
                   <h5>
                     <Link legacyBehavior href="/service-details">
-                      <a>MVP Development</a>
+                      <a>AI & ML</a>
                     </Link>
                   </h5>
                 </div>
-                <div className="image">
-                  <img
-                    src="assets/images/services/service8.jpg"
-                    alt="Service"
-                  />
+                <div className="listtss">
+                  <ul>
+                    <li>Artificial Intelligence Solution</li>
+                    <li>AR/VR Solution</li>
+                    <li>Data Science</li>
+                    <li>Industrial Internet</li>
+                    <li>Legacy Application</li>
+                    <li>Robotic Automation</li>
+                    <li>Business Intelligence</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -468,27 +513,35 @@ const Index2 = () => {
             <span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>Web Design</b>
+                <b>Product</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>Product Design</b>
+                <b>Web App Development</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>Web Development</b>
+                <b>App App Development</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>SEO Optimization</b>
+                <b>Team & Processes</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>UX/UI Strategy</b>
+                <b>Industry</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>Graphics</b>
+                <b>Business Support</b>
+              </span>
+              <span className="marquee-item">
+                <i className="fas fa-star-of-life" />
+                <b>Advisory</b>
+              </span>
+              <span className="marquee-item">
+                <i className="fas fa-star-of-life" />
+                <b>AI & ML</b>
               </span>
             </span>
           </div>
@@ -496,13 +549,18 @@ const Index2 = () => {
       </div>
       {/* Headline Area end */}
       {/* Project Timeline-two Area start */}
-      <section className="project-timeline-two-area pt-130 rpt-100 rel z-1">
+      <section className="project-timeline-two-area pt-130 pb-130 rpb-100 rpt-100 rel z-1">
         <div className="container container-1290">
           <div className="row">
             <div className="col-xl-6 col-lg-8">
               <div className="section-title mb-70 rmb-30 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">Recent Works Gallery</span>
-                <h2>Lat’s Look Our Recent Project Gallery</h2>
+                <span className="sub-title mb-15">
+                  Startups, Scale-ups, And Beyond
+                </span>
+                <h2>
+                  Positive achievements for numerous web and mobile initiatives
+                  like yours
+                </h2>
               </div>
             </div>
             <div className="col-xl-6 col-lg-4 text-lg-end">
@@ -519,7 +577,7 @@ const Index2 = () => {
                 <span className="serial-number">01</span>
                 <h4>
                   <Link legacyBehavior href="/project-details">
-                    <a>Business Task Management Dashboard Design</a>
+                    <a>HBR — Future-proofing Harvard Business Review</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -540,12 +598,12 @@ const Index2 = () => {
                 <span className="serial-number">02</span>
                 <h4>
                   <Link legacyBehavior href="/project-details">
-                    <a>PSD, Figma &amp; XD to HTML Design &amp; Development</a>
+                    <a>Digital Ocean — Remedy CMS blockers for faster site</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="assets/images/projects/project-timeline-two2.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -561,12 +619,12 @@ const Index2 = () => {
                 <span className="serial-number">03</span>
                 <h4>
                   <Link legacyBehavior href="/project-details">
-                    <a>Mobile Application Design &amp; Development</a>
+                    <a>MBTA — Conduct research to uncover a technology</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="assets/images/projects/project-timeline-two3.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -582,12 +640,12 @@ const Index2 = () => {
                 <span className="serial-number">04</span>
                 <h4>
                   <Link legacyBehavior href="/project-details">
-                    <a>Business Development and Marketing Strategy</a>
+                    <a>Joydrive — Validate business model.</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="assets/images/projects/project-timeline-two4.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -603,12 +661,12 @@ const Index2 = () => {
                 <span className="serial-number">05</span>
                 <h4>
                   <Link legacyBehavior href="/project-details">
-                    <a>eCommerce React Website Development</a>
+                    <a>Health Match 360 — therapist matching web app</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="assets/images/projects/project-timeline-two5.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -624,12 +682,12 @@ const Index2 = () => {
                 <span className="serial-number">06</span>
                 <h4>
                   <Link legacyBehavior href="/project-details">
-                    <a>3D Flat UI UX Landing Page Design &amp; Development</a>
+                    <a>LOLA — Improving Conversion and Code</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
+                    src="assets/images/projects/project-timeline-two6.jpg"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -645,7 +703,7 @@ const Index2 = () => {
       </section>
       {/* Project Timeline Two Area end */}
       {/* Team Area start */}
-      <section className="team-area pt-75 rpt-45">
+      {/* <section className="team-area pt-75 rpt-45">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -853,28 +911,33 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team Area end */}
       {/* Why Choose Us start */}
-      <section className="demo-area pt-100 rpt-70 rel z-1">
+      <section className="demo-area pt-100 rpb-50 rel z-1">
         <div className="container">
           <div className="row">
             <div className="col-xl-6 col-lg-8">
               <div className="why-choose-us-content">
                 <div className="section-title mb-60 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">Why Choose Us</span>
-                  <h2>Web Design Company That You Can Trust</h2>
+                  <span className="sub-title mb-15">
+                    Entrepreneurship, Design, And Development Resources
+                  </span>
+                  <h2>
+                    Build successful products by applying everything we've
+                    learnt.
+                  </h2>
                 </div>
                 <div className="row gap-60">
                   <div className="col-md-6">
                     <div className="why-choose-item wow fadeInUp delay-0-2s">
                       <div className="why-choose-header">
                         <i className="far fa-chevron-right" />
-                        <h5>Competitive rates</h5>
+                        <h5>Purpose-built</h5>
                       </div>
                       <p>
-                        We use strategic marketing tactics that have been proven
-                        programming
+                        Actionable advice for entrepreneurs who want to build
+                        products people love.
                       </p>
                     </div>
                   </div>
@@ -882,11 +945,11 @@ const Index2 = () => {
                     <div className="why-choose-item wow fadeInUp delay-0-3s">
                       <div className="why-choose-header">
                         <i className="far fa-chevron-right" />
-                        <h5>Premium Development</h5>
+                        <h5>Design Sprint Guide</h5>
                       </div>
                       <p>
-                        Sed perspiciatis unde omnie natue site voluptatem
-                        accusan doloremque
+                        Our guide to conducting and facilitating Product Design
+                        Sprints.
                       </p>
                     </div>
                   </div>
@@ -894,11 +957,11 @@ const Index2 = () => {
                     <div className="why-choose-item wow fadeInUp delay-0-2s">
                       <div className="why-choose-header">
                         <i className="far fa-chevron-right" />
-                        <h5>No contracts needed</h5>
+                        <h5>Upcase</h5>
                       </div>
                       <p>
-                        You can increase, pause or stop our services at any time
-                        leaving
+                        Become an experienced developer and take “junior” out of
+                        your title.
                       </p>
                     </div>
                   </div>
@@ -906,11 +969,11 @@ const Index2 = () => {
                     <div className="why-choose-item wow fadeInUp delay-0-3s">
                       <div className="why-choose-header">
                         <i className="far fa-chevron-right" />
-                        <h5>Retina Ready &amp; Flexible</h5>
+                        <h5>Our Playbook</h5>
                       </div>
                       <p>
-                        Devices show more pixels square inch resulting sharperes
-                        images Content
+                        Our documented approach to making successful web and
+                        mobile products.
                       </p>
                     </div>
                   </div>
@@ -938,7 +1001,7 @@ const Index2 = () => {
       </section>
       {/* Why Choose Us end */}
       {/* Pricing style three start */}
-      <section
+      {/* <section
         className="pricing-area-three pt-75 rpt-100 pb-85 rpb-55"
         style={{
           backgroundImage:
@@ -1042,7 +1105,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Pricing style three end */}
       {/* Headline area start */}
       <div className="headline-area style-two bgc-primary pt-80 pb-65">
@@ -1079,7 +1142,7 @@ const Index2 = () => {
       </div>
       {/* Headline Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonial-section pt-130 rpt-90">
+      <section className="testimonial-section pt-130 rpt-90 pb-130 rpb-45">
         <div className="container container-1210">
           <div className="row">
             <div className="col-lg-6">
@@ -1100,12 +1163,11 @@ const Index2 = () => {
                   <SwiperSlide className="testimonial-item">
                     <div className="author-speech">
                       <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
+                        <span className="quote">“</span> Working with Debugsyn
+                        was an exceptional experience. I can’t say enough great
+                        things about the entire team, their process, their
+                        workflow, and the quality of the code. They have a
+                        talented team of designers and developers working there.
                         <span className="quote right-quote">“</span>
                       </p>
                     </div>
@@ -1113,13 +1175,48 @@ const Index2 = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="assets/images/testimonials/author1.jpg"
                             alt="Author Image"
                           />
                         </div>
                         <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
+                          <h4>Joshua Field</h4>
+                          <span className="designation">Founder &amp; CEO</span>
+                        </div>
+                      </div>
+                      <div className="ratting style-two">
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="testimonial-item">
+                    <div className="author-speech">
+                      <p>
+                        <span className="quote">“</span> Participating in the
+                        Product Design Sprint was like a slingshot and
+                        positioned us to be much more competitive for grants and
+                        accelerator programs and also left us with a clear
+                        picture of next steps.
+                        <span className="quote right-quote">“</span>
+                      </p>
+                    </div>
+                    <div className="testimonial-footer">
+                      <div className="testimonial-author">
+                        <div className="author-image">
+                          <img
+                            src="assets/images/testimonials/author2.jpg"
+                            alt="Author Image"
+                          />
+                        </div>
+                        <div className="author-info">
+                          <h4>Dr. Bailey Bryant</h4>
+                          <span className="designation">
+                            CEO &amp; Co-founder
+                          </span>
                         </div>
                       </div>
                       <div className="ratting style-two">
@@ -1134,12 +1231,12 @@ const Index2 = () => {
                   <SwiperSlide className="testimonial-item">
                     <div className="author-speech">
                       <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
+                        <span className="quote">“</span> The best part of
+                        working with the Debugsyn team was their unflagging
+                        optimism and determination to deliver the best quality
+                        result in every situation. It would be hard to hire
+                        Debugsyn and come out with something that wasn’t well
+                        thought out.
                         <span className="quote right-quote">“</span>
                       </p>
                     </div>
@@ -1147,13 +1244,13 @@ const Index2 = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="assets/images/testimonials/author3.jpg"
                             alt="Author Image"
                           />
                         </div>
                         <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
+                          <h4>Erik Hageman</h4>
+                          <span className="designation">Creative Director</span>
                         </div>
                       </div>
                       <div className="ratting style-two">
@@ -1168,12 +1265,12 @@ const Index2 = () => {
                   <SwiperSlide className="testimonial-item">
                     <div className="author-speech">
                       <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
+                        <span className="quote">“</span> Debugsyn left me with
+                        a much more seasoned team than I had started with, a
+                        better architecture, and a much clearer roadmap. Even to
+                        this day, the DNA from debugsyn’s early engagement
+                        lives through the company. They really set us up for the
+                        success we are today.
                         <span className="quote right-quote">“</span>
                       </p>
                     </div>
@@ -1181,13 +1278,13 @@ const Index2 = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="assets/images/testimonials/author4.jpg"
                             alt="Author Image"
                           />
                         </div>
                         <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
+                          <h4>Aatish Salvi</h4>
+                          <span className="designation">CTO</span>
                         </div>
                       </div>
                       <div className="ratting style-two">
@@ -1195,41 +1292,7 @@ const Index2 = () => {
                         <i className="fas fa-star" />
                         <i className="fas fa-star" />
                         <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
                         <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
                       </div>
                     </div>
                   </SwiperSlide>
@@ -1252,7 +1315,7 @@ const Index2 = () => {
       </section>
       {/* Testimonial Area end */}
       {/* Blog Style Two start */}
-      <section className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
+      {/* <section className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
         <div className="container container-1290">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9">
@@ -1338,7 +1401,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Blog Style Two end */}
     </Layout>
   );

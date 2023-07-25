@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer2 = () => {
   return (
     <footer
-      className="main-footer footer-two pt-100 pb-50 rpb-20 rel z-1"
+      className="main-footer footer-two pt-100 rpt-45 pb-50 rpb-20 rel z-1"
       style={{
         backgroundImage: "url(assets/images/footer/footer-bg-shape.png)",
       }}
@@ -12,7 +12,7 @@ const Footer2 = () => {
         <div className="row gp-100 pb-20 align-items-center justify-content-between">
           <div className="col-xl-6 col-lg-7">
             <div className="footer-left-title mb-35 wow fadeInLeft delay-0-2s">
-              Get Ready to Build Your Website
+            What constitutes success for you?
             </div>
           </div>
           <div className="col-lg-5 col-sm-7 col-6 col-small wow fadeInRight delay-0-2s">
@@ -20,7 +20,7 @@ const Footer2 = () => {
               <Link legacyBehavior href="/contact">
                 <a className="explore-more text-start">
                   <i className="fas fa-arrow-right" />{" "}
-                  <span>Send Us Message</span>
+                  <span>Let's Discuss</span>
                 </a>
               </Link>
             </div>
@@ -29,10 +29,10 @@ const Footer2 = () => {
             <div className="footer-widget footer-text wow fadeInUp delay-0-4s">
               <h5 className="footer-title">Get In Touch</h5>
               <div className="text">
-                <p>55 Main Street, 2nd block Malborne, Australia</p>
-                <a href="mailto:support@gmail.com">support@gmail.com</a>
+                <p>4590 MacArthur Blvd, Newport Beach, CA 92660, USA</p>
+                <a href="mailto:support@gmail.com">support@debugsyn.com</a>
                 <br />
-                <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                <a href="callto:+8801908155030">+1 (323) 415 8482</a>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Footer2 = () => {
               <p>
                 Copyright @2023,{" "}
                 <Link legacyBehavior href="/">
-                  <a>Ygency</a>
+                  <a>Debugsyn</a>
                 </Link>{" "}
                 All Rights Reserved
               </p>
