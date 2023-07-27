@@ -51,15 +51,15 @@ const DefaultFooter = () => {
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
                   className="theme-btn style-three"
-                  href="mailto:support@gmail.com"
+                  href="mailto:support@debugsny.com"
                 >
-                  support@gmail.com <i className="far fa-arrow-right" />
+                  support@debugsny.com <i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
+                  href="callto:+13234158482"
                 >
-                  +000 (123) 456 88 <i className="far fa-arrow-right" />
+                  +1 (323) 415 8482 <i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -161,7 +161,7 @@ const DefaultFooter = () => {
                 <p>
                   Copyright @2023,{" "}
                   <Link legacyBehavior href="/">
-                    <a>Ygency</a>
+                    <a>Debugsny</a>
                   </Link>{" "}
                   All Rights Reserved
                 </p>

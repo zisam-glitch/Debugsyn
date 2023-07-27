@@ -5,7 +5,11 @@ const ProjectList = () => {
   return (
     <Layout>
       {/* Page Banner Start */}
-      <PageBanner pageName={"Project List"} />
+      <section className="project-benr-area pt-230 rpt-150 pb-80 rpb-20">
+        <h1 className="header-project-banner text-center ">
+          Companies like yours create meaningful solutions
+        </h1>
+      </section>
       {/* Page Banner End */}
       {/* Project List Area start */}
       <section className="project-list-area pt-130 rpt-100 pb-10 rpb-25">
@@ -24,19 +28,20 @@ const ProjectList = () => {
             </div>
             <div className="content wow fadeInRight delay-0-2s">
               <Link legacyBehavior href="/projects">
-                <a className="category">Creative Work</a>
+                <a className="category">Mobile Development</a>
               </Link>
               <h2>
                 <Link legacyBehavior href="/project-details">
-                  <a>
-                    Task Management <i>Dashboard</i>
-                  </a>
+                  <a>Smart Home App</a>
                 </Link>
+                <br />
+                <b>Green home</b>
               </h2>
-              <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                Cross-platform solution allowing remotely control your smart
+                lights, thermostat, security cameras, smart plugs, and more, no
+                matter where you are. The app includes a subscription module,
+                early access features, and an Admin panel
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="read-more">
@@ -48,19 +53,21 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="content wow fadeInLeft delay-0-2s">
               <Link legacyBehavior href="/projects">
-                <a className="category">Digital Product</a>
+                <a className="category">Python and Django</a>
               </Link>
               <h2>
                 <Link legacyBehavior href="/project-details">
-                  <a>
-                    Mobile Application <i>Development</i>
-                  </a>
+                  <a>Corporate Website</a>
                 </Link>
+                <br />
+                <b>Qiuntex bank</b>
               </h2>
-              <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                Qiuntex provide an opening of corporate multi- currency accounts
+                to ensure the stable operation of company in the international
+                market. Works in more than 30 countries. Our service gives
+                instant access to international and local transfers and money
+                transfers between your bank cards.
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="read-more">
@@ -94,19 +101,19 @@ const ProjectList = () => {
             </div>
             <div className="content wow fadeInRight delay-0-2s">
               <Link legacyBehavior href="/projects">
-                <a className="category">Creative Work</a>
+                <a className="category">React</a>
               </Link>
               <h2>
                 <Link legacyBehavior href="/project-details">
-                  <a>
-                    Product Design &amp; <i>Branding</i>
-                  </a>
+                  <a>E-commerce Website</a>
                 </Link>
+                <br />
+                <b>HIKlI</b>
               </h2>
-              <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                A web solution and a cross-platform mobile app for a marketplace
+                with search algorithm, merchant inventory control, and payment
+                engine with 3D Secure support
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="read-more">
@@ -118,19 +125,19 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="content wow fadeInLeft delay-0-2s">
               <Link legacyBehavior href="/projects">
-                <a className="category">Digital Product</a>
+                <a className="category">Mobile Development</a>
               </Link>
               <h2>
                 <Link legacyBehavior href="/project-details">
-                  <a>
-                    Digital Content For <i>Web Development</i>
-                  </a>
+                  <a>Corporate Website</a>
                 </Link>
+                <br />
+                <b>TaskGo.</b>
               </h2>
-              <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                a cross-platform system that enables managing tasks and
+                providing reminders. The application comes with a subscription
+                module, early access features, and an admin panel.
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="read-more">
@@ -164,19 +171,20 @@ const ProjectList = () => {
             </div>
             <div className="content wow fadeInRight delay-0-2s">
               <Link legacyBehavior href="/projects">
-                <a className="category">Creative Work</a>
+                <a className="category">Mobile Development</a>
               </Link>
               <h2>
                 <Link legacyBehavior href="/project-details">
-                  <a>
-                    Product Design <i>&amp; Branding</i>
-                  </a>
+                  <a>Food Delivery App</a>
                 </Link>
+                <br />
+                <b>YOKAI.</b>
               </h2>
-              <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                a cross-platform solution that offers users free food every day
+                based on their location. The application comes with a
+                subscription module, features for early access, and an admin
+                panel.
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="read-more">
@@ -188,19 +196,21 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="content wow fadeInLeft delay-0-2s">
               <Link legacyBehavior href="/projects">
-                <a className="category">Digital Product</a>
+                <a className="category">Platform Engineering</a>
               </Link>
               <h2>
                 <Link legacyBehavior href="/project-details">
-                  <a>
-                    Digital Content For <i>Web Development</i>
-                  </a>
+                  <a>Corporate Website</a>
                 </Link>
+                <br />
+                <b>Wallet</b>
               </h2>
-              <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                Wallet provide an opening of corporate multi- currency accounts
+                to ensure the stable operation of company in the international
+                market. Our service gives
+                instant access to international and local transfers and money
+                transfers between your bank cards.
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="read-more">

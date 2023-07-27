@@ -517,11 +517,11 @@ const Index2 = () => {
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>Web App Development</b>
+                <b>Web Development</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />
-                <b>App App Development</b>
+                <b>App Development</b>
               </span>
               <span className="marquee-item">
                 <i className="fas fa-star-of-life" />

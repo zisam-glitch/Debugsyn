@@ -21,11 +21,6 @@ const DaskTopMenu = () => {
   return (
     <ul className="navigation d-none d-lg-flex desktop-menu">
       <li>
-        <Link legacyBehavior href="/">
-          Home
-        </Link>
-      </li>
-      <li>
         <Link legacyBehavior href="about">
           About Us
         </Link>
@@ -37,12 +32,12 @@ const DaskTopMenu = () => {
       </li>
       <li>
         <Link legacyBehavior href="project-list">
-          Projects
+        Case Studies
         </Link>
       </li>
       <li>
         <Link legacyBehavior href="pricing">
-          Pricing
+        Resources
         </Link>
       </li>
       <li>

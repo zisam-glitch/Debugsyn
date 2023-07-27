@@ -1,6 +1,6 @@
-import dynamic from 'next/dynamic';
- 
-const Counter = dynamic(() => import('@/src/components/Counter'), {
+import dynamic from "next/dynamic";
+
+const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
 import Layout from "@/src/layout/Layout";
@@ -19,7 +19,7 @@ const About = () => {
           <div className="row">
             <div className="col-xl-10 col-lg-11">
               <h1 className="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
-              We transform ideas into 
+                We transform ideas into
                 <img
                   className="mxw-20"
                   src="assets/images/banner/inside-title1.png"
@@ -46,7 +46,7 @@ const About = () => {
 
       {/* Page Banner Section End */}
       {/* Video Area start */}
-      <div className="video-area-two rel z-1">
+      {/* <div className="video-area-two rel z-1">
         <div className="container-fluid">
           <div className="video-part style-two mb-40 wow fadeInUp delay-0-2s">
             <img src="assets/images/video/video-two-bg.jpg" alt="Video" />
@@ -62,9 +62,9 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6 wow fadeInLeft delay-0-2s">
               <div className="client-text text-lg-start text-center mt-40 pb-50">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptat
-                emey accusantium doloremque laudantium totam aperiam eaque
-                quabillo inventore veritatisey quasi architecto beatae dictasunt
+                Being on the market since 2017, we have managed to gain the
+                trust and respect from our clients. Long-term relationships and
+                happy customers have always been our main goals.
               </div>
               <div className="row">
                 <div className="col-xl-10">
@@ -109,7 +109,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Video Area end */}
       {/* Who We Are start */}
       <section className="who-we-are-area pt-100 rpt-80 pb-75 rpb-45 rel z-1">
@@ -117,8 +117,8 @@ const About = () => {
           <div className="row justify-content-center">
             <div className="col-lg-7">
               <div className="section-title text-center mb-70 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">Who We Are</span>
-                <h2>We are Professional and Experience Team </h2>
+                <span className="sub-title mb-15">Our values</span>
+                <h2>We're dedicated to seeing you succeed.</h2>
               </div>
             </div>
           </div>
@@ -126,36 +126,38 @@ const About = () => {
             <div className="col-lg-4 col-md-6">
               <div className="why-choose-item style-two wow fadeInUp delay-0-2s">
                 <div className="why-choose-header">
-                  <i className="flaticon-creativity" />
-                  <h5>Customize your site</h5>
+                  <i className="flaticon-mobile-banking" />
+                  <h5>Transparency</h5>
                 </div>
                 <p>
-                  At vero eos et accusamus iusto dignissim ducimuse blanditiis
-                  praesentiue
+                  We believe that honesty with clients, partners,
+                  and employees is a fundamental step to creating great
+                  products.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="why-choose-item style-two wow fadeInUp delay-0-4s">
                 <div className="why-choose-header">
-                  <i className="flaticon-mobile-banking" />
-                  <h5>Edit your mobile view</h5>
+                  <i className="flaticon-optimization-1" />
+                  <h5>Flexibility</h5>
                 </div>
                 <p>
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                  corporis suscipit
+                  We quickly responds to new requirements and changes
+                  thanks to the elaborate development process and no
+                  bureaucracy.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="why-choose-item style-two wow fadeInUp delay-0-6s">
                 <div className="why-choose-header">
-                  <i className="flaticon-optimization-1" />
-                  <h5>Optimize search engines</h5>
+                  <i className="flaticon-creativity" />
+                  <h5>Professionalism</h5>
                 </div>
                 <p>
-                  Quis autem vel eum iure reprehenderi qui ea voluptate velit
-                  esse quam nihile
+                  Our software engineering teams consist of high-qualified and
+                  certified developers with domain expertise across industries.
                 </p>
               </div>
             </div>
@@ -164,7 +166,7 @@ const About = () => {
       </section>
       {/* Who We Are end */}
       {/* Headline area start */}
-      <div className="headline-area bgc-primary pt-80 pb-65">
+      {/* <div className="headline-area bgc-primary pt-80 pb-65">
         <div className="container-fluid">
           <div className="headline-wrap marquee">
             <span>
@@ -207,10 +209,10 @@ const About = () => {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Headline Area end */}
       {/* Team Area start */}
-      <section className="team-area pt-130 rpt-100">
+      {/* <section className="team-area pt-130 rpt-100">
         <div className="container-fluid">
           <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
             <div className="col">
@@ -408,10 +410,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
-      {/* Team Area end */}
+      </section>*/}
+      {/* Team Area end  */}
       {/* Statistics Area start */}
-      <div
+      {/* <div
         className="statistics-area pt-100 rpt-70 rel z-1"
         style={{ backgroundImage: "url(assets/images/hero/hero-two-bg.png)" }}
       >
@@ -420,34 +422,34 @@ const About = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-2s">
                 <i className="fal fa-check-circle" />
-                <Counter end={25} />
+                <Counter end={10} />
                 <span className="counter-title">Years Of Experience</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-3s">
                 <i className="fal fa-check-circle" />
-                <Counter end={3} extraClass={"k"} />
+                <Counter end={2} extraClass={"k"} />
                 <span className="counter-title">Project’s Complete</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-4s">
                 <i className="fal fa-check-circle" />
-                <Counter end={48} />
+                <Counter end={24} />
                 <span className="counter-title">Professionals Team Member</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-5s">
                 <i className="fal fa-check-circle" />
-                <Counter end={92} />
+                <Counter end={45} />
                 <span className="counter-title">Awards Winning</span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Statistics Area end */}
       {/* Testimonial Area start */}
       <section className="testimonial-section pt-70 rpt-30">
@@ -471,12 +473,11 @@ const About = () => {
                   <SwiperSlide className="testimonial-item">
                     <div className="author-speech">
                       <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
+                        <span className="quote">“</span> Working with Debugsyn
+                        was an exceptional experience. I can’t say enough great
+                        things about the entire team, their process, their
+                        workflow, and the quality of the code. They have a
+                        talented team of designers and developers working there.
                         <span className="quote right-quote">“</span>
                       </p>
                     </div>
@@ -484,13 +485,48 @@ const About = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="assets/images/testimonials/author1.jpg"
                             alt="Author Image"
                           />
                         </div>
                         <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
+                          <h4>Joshua Field</h4>
+                          <span className="designation">Founder &amp; CEO</span>
+                        </div>
+                      </div>
+                      <div className="ratting style-two">
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                        <i className="fas fa-star" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="testimonial-item">
+                    <div className="author-speech">
+                      <p>
+                        <span className="quote">“</span> Participating in the
+                        Product Design Sprint was like a slingshot and
+                        positioned us to be much more competitive for grants and
+                        accelerator programs and also left us with a clear
+                        picture of next steps.
+                        <span className="quote right-quote">“</span>
+                      </p>
+                    </div>
+                    <div className="testimonial-footer">
+                      <div className="testimonial-author">
+                        <div className="author-image">
+                          <img
+                            src="assets/images/testimonials/author2.jpg"
+                            alt="Author Image"
+                          />
+                        </div>
+                        <div className="author-info">
+                          <h4>Dr. Bailey Bryant</h4>
+                          <span className="designation">
+                            CEO &amp; Co-founder
+                          </span>
                         </div>
                       </div>
                       <div className="ratting style-two">
@@ -505,12 +541,12 @@ const About = () => {
                   <SwiperSlide className="testimonial-item">
                     <div className="author-speech">
                       <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
+                        <span className="quote">“</span> The best part of
+                        working with the Debugsyn team was their unflagging
+                        optimism and determination to deliver the best quality
+                        result in every situation. It would be hard to hire
+                        Debugsyn and come out with something that wasn’t well
+                        thought out.
                         <span className="quote right-quote">“</span>
                       </p>
                     </div>
@@ -518,13 +554,13 @@ const About = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="assets/images/testimonials/author3.jpg"
                             alt="Author Image"
                           />
                         </div>
                         <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
+                          <h4>Erik Hageman</h4>
+                          <span className="designation">Creative Director</span>
                         </div>
                       </div>
                       <div className="ratting style-two">
@@ -539,12 +575,12 @@ const About = () => {
                   <SwiperSlide className="testimonial-item">
                     <div className="author-speech">
                       <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
+                        <span className="quote">“</span> Debugsyn left me with
+                        a much more seasoned team than I had started with, a
+                        better architecture, and a much clearer roadmap. Even to
+                        this day, the DNA from debugsyn’s early engagement
+                        lives through the company. They really set us up for the
+                        success we are today.
                         <span className="quote right-quote">“</span>
                       </p>
                     </div>
@@ -552,13 +588,13 @@ const About = () => {
                       <div className="testimonial-author">
                         <div className="author-image">
                           <img
-                            src="assets/images/testimonials/author1.png"
+                            src="assets/images/testimonials/author4.jpg"
                             alt="Author Image"
                           />
                         </div>
                         <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
+                          <h4>Aatish Salvi</h4>
+                          <span className="designation">CTO</span>
                         </div>
                       </div>
                       <div className="ratting style-two">
@@ -566,41 +602,7 @@ const About = () => {
                         <i className="fas fa-star" />
                         <i className="fas fa-star" />
                         <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
                         <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
                       </div>
                     </div>
                   </SwiperSlide>
