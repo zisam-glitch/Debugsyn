@@ -203,7 +203,7 @@ const ProjectList = () => {
                   <a>Corporate Website</a>
                 </Link>
                 <br />
-                <b>Wallet</b>
+                <b>Zazpay</b>
               </h2>
               <p>
                 Wallet provide an opening of corporate multi- currency accounts
